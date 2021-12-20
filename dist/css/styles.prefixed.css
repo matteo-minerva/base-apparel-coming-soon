@@ -890,7 +890,7 @@ body {
   overflow: hidden;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .mobile-only {
     display: none !important;
   }
@@ -899,7 +899,7 @@ body {
 .desktop-only {
   display: none !important;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .desktop-only {
     display: block !important;
   }
@@ -910,7 +910,7 @@ body {
   height: 25px;
   margin: 32px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .logo {
     position: absolute;
     top: 65px;
@@ -947,7 +947,7 @@ label.error {
   flex-direction: column;
   min-height: 100vh;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #coming-soon {
     flex-wrap: wrap;
     flex-direction: row;
@@ -959,7 +959,7 @@ label.error {
   height: 250px;
   margin-bottom: 57px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #coming-soon .hero {
     background: url("../../src/images/hero-desktop.jpg") center/cover no-repeat;
     width: 43%;
@@ -972,7 +972,7 @@ label.error {
   padding: 0 32px;
   background-color: linear-gradient(135deg, #FADADB, #F9C9C9);
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #coming-soon .content {
     position: relative;
     width: 57%;
@@ -994,7 +994,7 @@ label.error {
   color: #413a3a;
   margin-bottom: 20px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #coming-soon .content__title {
     text-align: left;
     font-size: 70px;
@@ -1011,7 +1011,7 @@ label.error {
   line-height: 1.5;
   margin-bottom: 40px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #coming-soon .content__body {
     text-align: left;
     font-size: 16px;
@@ -1026,7 +1026,7 @@ label.error {
   right: 80px;
   top: 11px;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #coming-soon .content .cta .error__icon {
     right: 100px;
     top: 14px;
@@ -1054,7 +1054,7 @@ label.error {
   font-weight: 400;
   color: #413a3a;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #coming-soon .content .cta #newsletter {
     height: 50px;
   }
@@ -1080,7 +1080,7 @@ label.error {
   font-size: 13px;
   font-weight: 300;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #coming-soon .content .cta #newsletter::-moz-placeholder {
     font-size: 16px;
   }
@@ -1106,7 +1106,7 @@ label.error {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #coming-soon .content .cta-email__btn {
     height: 50px;
     width: 90px;
