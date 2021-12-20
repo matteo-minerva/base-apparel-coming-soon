@@ -929,7 +929,7 @@ body {
 }
 
 .accent {
-  color: #ce9797;
+  color: #956c6c;
 }
 
 label.error {
@@ -970,13 +970,22 @@ label.error {
 }
 #coming-soon .content {
   padding: 0 32px;
-  background-color: linear-gradient(135deg, #FADADB, #F9C9C9);
 }
 @media (min-width: 1200px) {
   #coming-soon .content {
-    background-color: linear-gradient(135deg, #FADADB, #F9C9C9);
+    position: relative;
     background: url("../../src/images/bg-pattern-desktop.svg") left top/cover no-repeat;
     width: 57%;
+  }
+  #coming-soon .content:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(245, 184, 183, 0.15), rgba(242, 147, 145, 0.15));
+    top: 0;
+    left: 0;
   }
 }
 @media (min-width: 1200px) {
@@ -1012,7 +1021,7 @@ label.error {
   font-weight: 300;
 }
 #coming-soon .content__body {
-  color: #ce9797;
+  color: #956c6c;
   font-size: 14px;
   text-align: center;
   line-height: 1.5;
@@ -1044,7 +1053,7 @@ label.error {
   margin-top: 10px;
   padding-left: 25px;
   font-size: 14px;
-  color: #ce9797;
+  color: #956c6c;
   font-weight: 400;
 }
 #coming-soon .content .cta #newsletter {
@@ -1071,7 +1080,7 @@ label.error {
 }
 #coming-soon .content .cta #newsletter::placeholder {
   opacity: 0.8;
-  color: #ce9797;
+  color: #956c6c;
   font-size: 13px;
   font-weight: 300;
 }
