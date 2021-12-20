@@ -42,33 +42,36 @@
         <div class="hero"></div>
 
         <div class="content">
-            <a class="logo desktop-only">
-                <img alt="Base Apparel logo" role="presentation" src="src/images/logo.svg">
-                <span class="sr-only">Base Apparel Logo</span>
-            </a>
-            <h1 class="content__title">
-                <span class="accent">We're</span>
-                coming soon
-            </h1>
-            <p class="content__body">
-                Hello fellow shoppers! We're currently building our new fashion store.
-                Add your email below to stay up-to-date with announcements and our launch deals.
-            </p>
-            <form class="cta">
-                <label class="sr-only" for="newsletter">Email Address</label>
-                <input autocomplete="off" id="newsletter" maxlength="25" name="newsletter" placeholder="Email Address"
-                       type="email">
-                <img alt="Error in your email" class="error error__icon hidden" role="presentation"
-                     src="./src/images/icon-error.svg">
-                <a class="cta-email__btn" role="button">
-                    <svg height="20" width="12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1l8.836 8.836L1 18.671" fill="none"
-                              stroke="#FFF"
-                              stroke-width="2"/>
-                    </svg>
+            <div class="content__container">
+                <a class="logo desktop-only">
+                    <img alt="Base Apparel logo" role="presentation" src="src/images/logo.svg">
+                    <span class="sr-only">Base Apparel Logo</span>
                 </a>
-                <span class="error error__message hidden">Please provide a valid email</span>
-            </form>
+                <h1 class="content__title">
+                    <span class="accent">We're</span>
+                    coming soon
+                </h1>
+                <p class="content__body">
+                    Hello fellow shoppers! We're currently building our new fashion store.
+                    Add your email below to stay up-to-date with announcements and our launch deals.
+                </p>
+                <form class="cta">
+                    <label class="sr-only" for="newsletter">Email Address</label>
+                    <input autocomplete="off" id="newsletter" maxlength="25" name="newsletter"
+                           placeholder="Email Address"
+                           type="email">
+                    <img alt="Error in your email" class="error error__icon hidden" role="presentation"
+                         src="./src/images/icon-error.svg">
+                    <a class="cta-email__btn" role="button">
+                        <svg height="20" width="12" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1l8.836 8.836L1 18.671" fill="none"
+                                  stroke="#FFF"
+                                  stroke-width="2"/>
+                        </svg>
+                    </a>
+                    <span class="error error__message hidden">Please provide a valid email</span>
+                </form>
+            </div>
         </div>
     </div>
 </main>
