@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "grunt dev",
-    "build": "grunt build"
+    "build": "grunt"
   },
   "keywords": ["frontend mentor", "frontend"],
   "author": "Matteo Minerva",
