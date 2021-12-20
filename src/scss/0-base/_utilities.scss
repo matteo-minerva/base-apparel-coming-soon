@@ -15,6 +15,13 @@
   }
 }
 
+.desktop-only {
+  display: none !important;
+  @include media("desktop") {
+    display: block !important;
+  }
+}
+
 .logo {
   display: block;
   height: 25px;

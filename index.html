@@ -16,7 +16,7 @@
 
     <!-- Customs -->
     <script src="./dist/js/production.min.js"></script>
-    <link href="./dist/css/styles.css" rel="stylesheet">
+    <link href="./dist/css/styles.min.css" rel="stylesheet">
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -42,7 +42,7 @@
         <div class="hero"></div>
 
         <div class="content">
-            <a class="logo">
+            <a class="logo desktop-only">
                 <img alt="Base Apparel logo" role="presentation" src="src/images/logo.svg">
                 <span class="sr-only">Base Apparel Logo</span>
             </a>
@@ -56,8 +56,10 @@
             </p>
             <form class="cta">
                 <label class="sr-only" for="newsletter">Email Address</label>
-                <input id="newsletter" name="newsletter" placeholder="Email Address" type="email" maxlength="25">
-                <img class="error error__icon hidden" src="./src/images/icon-error.svg" alt="Error in your email" role="presentation">
+                <input autocomplete="off" id="newsletter" maxlength="25" name="newsletter" placeholder="Email Address"
+                       type="email">
+                <img alt="Error in your email" class="error error__icon hidden" role="presentation"
+                     src="./src/images/icon-error.svg">
                 <a class="cta-email__btn" role="button">
                     <svg height="20" width="12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1l8.836 8.836L1 18.671" fill="none"
