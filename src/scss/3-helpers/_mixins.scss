@@ -1,0 +1,7 @@
+@mixin media($size) {
+  @if $size == desktop {
+    @media (min-width: 1440px) {
+      @content;
+    }
+  }
+}

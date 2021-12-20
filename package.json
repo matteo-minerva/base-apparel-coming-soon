@@ -1,0 +1,31 @@
+{
+  "name": "prova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "grunt dev",
+    "build": "grunt build"
+  },
+  "keywords": [],
+  "author": "Matteo Minerva",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.7",
+    "glob": "^7.2.0",
+    "grunt": "^1.4.1",
+    "grunt-contrib-concat": "^2.0.0",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-jshint": "^3.1.1",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
+    "pixrem": "^5.0.0"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "^5.1.0"
+  }
+}

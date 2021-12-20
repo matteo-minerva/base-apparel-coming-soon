@@ -1,0 +1,50 @@
+@use "../3-helpers" as *;
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.mobile-only {
+  @include media("desktop") {
+    display: none !important;
+  }
+}
+
+.logo {
+  display: block;
+  height: 25px;
+  margin: 32px;
+  @include media("desktop") {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    height: 36px;
+    margin: unset;
+  }
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.hidden {display: none !important;}
+
+.accent {
+  color: $desaturated-red;
+}
+
+label.error {
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 25px;
+  font-size: 13px;
+  line-height: 1.3;
+  color: $soft-red;
+  opacity: 0.8;
+}
